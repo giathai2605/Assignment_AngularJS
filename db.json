@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "id": 1,
+      "name": "John",
+      "age": 30,
+      "city": "New York"
+    },
+    {
+      "id": 2,
+      "name": "Peter",
+      "age": 40,
+      "city": "London"
+    },
+    {
+      "id": 3,
+      "name": "Amy",
+      "age": 50,
+      "city": "Sidney"
+    },
+    {
+      "id": 4,
+      "name": "Hannah",
+      "age": 60,
+      "city": "Sidney"
+    },
+    {
+      "id": 5,
+      "name": "Michael",
+      "age": 70,
+      "city": "Sidney"
+    },
+    {
+      "name": "thí",
+      "age": 3,
+      "city": "Hà Nội",
+      "id": 6
+    }
+  ]
+}

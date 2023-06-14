@@ -1,0 +1,29 @@
+<form action="" class="form-control">
+    <div class="form-group">
+        <label for="">ID</label>
+        <input type="text" class="form-control" placeholder="Auto" disabled>
+    </div>
+
+    <div class="form-group">
+        <label for="">Name</label>
+        <input type="text" class="form-control" placeholder="Enter name" ng-model="name">
+        <span ng-show="nameErr">Tên phải có ít nhất 3 ký tự</span>
+    </div>
+
+    <div class="form-group">
+        <label for="">Age</label>
+        <input type="number" min="0" class="form-control" placeholder="Enter age" ng-model="age">
+        <span ng-show="ageErr">Tuổi không hợp lệ!</span>
+    </div>
+
+    <div class="form-group">
+        <label for="">City</label>
+        <select name="" ng-model="city" id="" class="form-control">
+            <option value="">--City--</option>
+            <option value="Hà Nội">Hà Nội</option>
+            <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+        </select>
+        <span ng-show="cityErr">Vui lòng chọn thành phố!</span>
+    </div>
+    <button type="submit" class="btn btn-outline-primary" ng-click="onSubmit()">Thêm</button>
+</form>
